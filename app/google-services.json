@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "617716504690",
+    "project_id": "quizmania-6a803",
+    "storage_bucket": "quizmania-6a803.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:617716504690:android:101b211f114d69432b8aeb",
+        "android_client_info": {
+          "package_name": "com.example.quizzmania"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "617716504690-9e06buetqdot7c2jbfb5n13im153o5f2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGGtKQwmUQlYLQdSNkL8IccQRGzSZlSbo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "617716504690-9e06buetqdot7c2jbfb5n13im153o5f2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/qbg"
+    tools:context=".ProfileActivity">
+
+
+    <TextView
+        android:id="@+id/greeting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:text="Welcome"
+        android:fontFamily="casual"
+        android:textColor="@color/white" />
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="50dp"
+        app:cardMaxElevation="12dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true">
+
+
+        <ImageView
+            android:id="@+id/start"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/start"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+  <!--  <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="1dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="50dp"
+        app:cardMaxElevation="12dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true">
+
+
+        &lt;!&ndash;<ImageView
+            android:id="@+id/signoutBTN"
+            android:layout_width="200dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/logout"/>
+
+&ndash;&gt;
+
+       &lt;!&ndash; <TextView
+            android:id="@+id/greeting1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:text="Rules"
+            android:fontFamily="arial"
+            android:textColor="@color/black" />&ndash;&gt;
+
+    </androidx.cardview.widget.CardView>
+  -->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginTop="300dp"
+        android:orientation="vertical"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="340dp"
+        android:text="Rules:"
+        android:layout_marginStart="30dp"
+        android:textColor="#F0C853"
+        android:textStyle="bold"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="410dp"
+        android:text="1.There are 10 Questions of each Language."
+        android:layout_marginStart="5dp"
+        android:textColor="#00c853"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="480dp"
+        android:text="2.Total Time for questions is 2:00 min"
+        android:layout_marginStart="5dp"
+        android:textColor="#00c853"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="550dp"
+        android:text="3.When you click on wrong answer  indicator will turn red."
+        android:layout_marginStart="5dp"
+        android:textColor="#00c853"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="620dp"
+        android:text="4.When you click on right answer  indicator will turn green."
+        android:layout_marginStart="5dp"
+        android:textColor="#00c853"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+</RelativeLayout>
+
+<!--
+<Button
+android:id="@+id/signoutBTN"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="LOGOUT"
+android:textColor="#FFFFFF"
+android:layout_gravity="center_vertical|center_horizontal"
+android:textStyle="bold"
+ />-->
